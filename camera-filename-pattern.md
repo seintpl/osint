@@ -16,4 +16,6 @@
 
 where X is a decimal.
 
-If you have any other examples, please let me know.
+Of course the filename can be very easily altered so don't be 100% sure of the outcome (as regarding every OSINT clue).
+
+If you have any other examples, please let me know - on [Twitter](https://twitter.com/SEINT_pl) or at theseint[at]pm.me
