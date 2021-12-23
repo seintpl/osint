@@ -7,3 +7,5 @@ A quick #OSINT hint set on how to check a short link instead of being redirected
 |https://cutt.ly | add @ at the end |https://cutt.ly/gsuite@|
 |https://tiny.cc | add = at the end |https://tiny.cc/t1a1tz=|
 |https://tinyurl.com | add "preview." before "tinyurl.com"|https://preview.tinyurl.com/y53y8oq6|
+
+For more information on how URLs are built, check [Unfurl](https://dfir.blog/unfurl).
