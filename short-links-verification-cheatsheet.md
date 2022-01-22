@@ -8,5 +8,6 @@ A quick #OSINT hint set on how to check a short link instead of being redirected
 |https://tiny.cc | add = at the end |https://tiny.cc/t1a1tz=|
 |https://tinyurl.com | add "preview." before "tinyurl.com"|https://preview.tinyurl.com/y53y8oq6|
 |https://goo.gl (deprecated) | add ?d=1 at the end |https://goo.gl/l6MS?d=1|
+|https://free-url-shortener.rb.gy | add + at the end |https://rb.gy/i8kxzd+|
 
 For more information on how URLs are built, check [Unfurl](https://dfir.blog/unfurl).
