@@ -3,6 +3,7 @@
 A quick #OSINT hint set on how to check a short link instead of being redirected:
 |Service | Verification | Example |
 |--------|--------------|---------|
+|https://bit.do | add - at the end | https://bit.do/yeetyeet- |
 |https://bit.ly  | add + at the end |https://bitly.com/3qEgtMT+ |
 |https://cutt.ly | add @ at the end |https://cutt.ly/gsuite@ |
 |https://is.gd | add - at the end |https://is.gd/dKGELA- |
@@ -12,6 +13,7 @@ A quick #OSINT hint set on how to check a short link instead of being redirected
 |https://linkd.pl | add nothing | https://linkd.pl/pduzr |
 |https://lmy.de | add + at the end | https://lmy.de/icBPw+ |
 |https://oe.cd | add + at the end | https://oe.cd/4iZ+ |
+|https://shorturl.gg | add nothing | https://shorturl.gg/mfGmhopm |
 |https://soo.gd | add ! at the end | [https://soo.gd/r76DV!](https://soo.gd/r76DV!) |
 |https://t1p.de | add + at the end | https://t1p.de/9xn8+ |
 |https://t.ly | add + at the end | https://t.ly/iXVY+ |
