@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Short links verification cheatsheet">
+    <meta name="author" content="SEINT">
+    <meta name="generator" content="notepad">
+    <title>Short links verification cheatsheet</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link href="sticky-footer-navbar.css" rel="stylesheet">
+  </head>
+  <body class="d-flex flex-column h-100 text-center">
+     
+  <header>
+    <nav class="navbar navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="https://seintpl.github.io">seintpl.github.io</a>
+      </div>
+    </nav>
+  </header>
+  
+  <main>
+    <div class="container" style="padding-top: 2em; max-width:990px;">
+      <h1 class="pt-5">Short links verification cheatsheet</h1>
+      <div class="row justify-content-md-center" style="padding: 20px 0px;">
+         <label for="filteru" class="form-label">To filter the list, type something in the form below:</label>
+          <div class="col-6">
+            <input class="form-control" id="filteru" type="text" placeholder="Filter...">
+          </div>
+      </div>
+      <table class="table table-hover table-bordered table-striped table-condensed table-responsive table-sm" style="text-align:left;">
+        <thead>
+          <tr>
+            <th class="ps-3">Service</th><th class="ps-3">Verification method</th><th class="ps-3">Example</th>
+          </tr>
+        </thead>
+        <tbody id="urltable">
+          <tr>
+            <td class="ps-3">
+              <a href="https://3.ly" rel="nofollow">3.ly</a></td>
+            <td class="ps-3">add ~p at the end for link<br />add ~s at the end for statistics</td>
+            <td class="ps-3">
+              <a href="https://3.ly/aeQVV~p" rel="nofollow">https://3.ly/aeQVV~p</a><br />
+              <a href="https://3.ly/aeQVV~s" rel="nofollow">https://3.ly/aeQVV~s</a></td>
+          </tr>          
+          <tr>
+            <td class="ps-3">
+              <a href="https://amzn.to" rel="nofollow">amzn.to</a></td>
+            <td class="ps-3">add + at the end</td>
+            <td class="ps-3">
+              <a href="https://amzn.to/theweeknd+" rel="nofollow">https://amzn.to/theweeknd+</a></td>
+          </tr>          
+          <tr>
+            <td class="ps-3">
+              <a href="https://bbc.in" rel="nofollow">bbc.in</a></td>
+            <td class="ps-3">add + at the end</td>
+            <td class="ps-3">
+              <a href="https://bbc.in/devicehelp+" rel="nofollow">https://bbc.in/devicehelp+</a></td>
+          </tr>          
+          <tr>
+            <td class="ps-3">
+              <a href="https://bhpho.to" rel="nofollow">bhpho.to</a></td>
+            <td class="ps-3">add + at the end</td>
+            <td class="ps-3">
+              <a href="https://bhpho.to/quickrelease+" rel="nofollow">https://bhpho.to/quickrelease+</a></td>
+          </tr>          
+          <tr>
+            <td class="ps-3">
+              <a href="https://binged.it" rel="nofollow">binged.it</a></td>
+            <td class="ps-3">add + at the end</td>
+            <td class="ps-3">
+              <a href="https://binged.it/2heDXUE+" rel="nofollow">https://binged.it/2heDXUE+</a></td>
+          </tr>          
+          <tr>
+            <td class="ps-3">
+              <a href="https://bit.do" rel="nofollow">bit.do</a></td>
+            <td class="ps-3">add - at the end</td>
+            <td class="ps-3">
+              <a href="https://bit.do/yeetyeet-" rel="nofollow">https://bit.do/yeetyeet-</a></td>
+          </tr>          
+          <tr>
+            <td class="ps-3">
+              <a href="https://bit.ly" rel="nofollow">bit.ly</a></td>
+            <td class="ps-3">add + at the end</td>
+            <td class="ps-3">
+              <a href="https://bitly.com/3qEgtMT+" rel="nofollow">https://bitly.com/3qEgtMT+</a></td>
+          </tr>          
+          <tr>
+            <td class="ps-3">
+              <a href="https://bloom.bg" rel="nofollow">bloom.bg</a></td>
+            <td class="ps-3">add + at the end</td>
+            <td class="ps-3">
+              <a href="https://bloom.bg/instagram+" rel="nofollow">https://bloom.bg/instagram+</a></td>
+          </tr>          
+          <tr>
+            <td class="ps-3">
+              <a href="https://buff.ly" rel="nofollow">buff.ly</a></td>
+            <td class="ps-3">add + at the end</td>
+            <td class="ps-3">
+              <a href="https://buff.ly/1irhfHu+" rel="nofollow">https://buff.ly/1irhfHu+</a></td>
+          </tr>          
+          <tr>
+            <td class="ps-3">
+              <a href="http://chilp.it" rel="nofollow">chilp.it</a></td>
+            <td class="ps-3">add p. before chilp.it for link<br />add s. before chilp.it for statistics</td>
+            <td class="ps-3">
+              <a href="http://p.chilp.it/3a1fde" rel="nofollow">http://p.chilp.it/3a1fde</a><br />
+              <a href="http://s.chilp.it/3a1fde" rel="nofollow">http://s.chilp.it/3a1fde</a></td>
+          </tr>          
+          <tr>
+            <td class="ps-3">
+              <a href="https://cli.re" rel="nofollow">cli.re</a></td>
+            <td class="ps-3">add + at the end</td>
+            <td class="ps-3">
+              <a href="https://cli.re/support+" rel="nofollow">https://cli.re/support+</a></td>
+          </tr>          
+          <tr>
+            <td class="ps-3">
+              <a href="https://cnet.co" rel="nofollow">cnet.co</a></td>
+            <td class="ps-3">add + at the end</td>
+            <td class="ps-3">
+              <a href="https://cnet.co/2IorgTi+" rel="nofollow">https://cnet.co/2IorgTi+</a></td>
+          </tr>          
+          <tr>
+            <td class="ps-3">
+              <a href="https://cutt.ly" rel="nofollow">cutt.ly</a></td>
+            <td class="ps-3">add @ at the end</td>
+            <td class="ps-3">
+              <a href="https://cutt.ly/gsuite@" rel="nofollow">https://cutt.ly/gsuite@</a></td>
+          </tr>          
+          <tr>
+            <td class="ps-3">
+              <a href="https://da.gd" rel="nofollow">da.gd</a></td>
+            <td class="ps-3">add /coshorten/ between da.gd and short code</td>
+            <td class="ps-3">
+              <a href="https://da.gd/coshorten/g" rel="nofollow">https://da.gd/coshorten/g</a></td>
+          </tr>          
+          <tr>
+            <td class="ps-3">
+              <a href="https://free-url-shortener.rb.gy" rel="nofollow">free-url-shortener.rb.gy</a></td>
+            <td class="ps-3">add + at the end</td>
+            <td class="ps-3">
+              <a href="https://rb.gy/i8kxzd+" rel="nofollow">https://rb.gy/i8kxzd+</a></td>
+          </tr>          
+          <tr class="table-warning">
+            <td class="ps-3">
+              <a href="https://goo.gl" rel="nofollow">goo.gl</a> (deprecated)</td>
+            <td class="ps-3">add ?d=1 at the end</td>
+            <td class="ps-3">
+              <a href="https://goo.gl/l6MS?d=1" rel="nofollow">https://goo.gl/l6MS?d=1</a></td>
+          </tr>          
+          <tr>
+            <td class="ps-3">
+              <a href="https://han.gl" rel="nofollow">han.gl</a></td>
+            <td class="ps-3">add + at the end</td>
+            <td class="ps-3">
+              <a href="https://han.gl/MpMYe+" rel="nofollow">https://han.gl/MpMYe+</a></td>
+          </tr>          
+          <tr>
+            <td class="ps-3">
+              <a href="https://huff.to" rel="nofollow">huff.to</a></td>
+            <td class="ps-3">add + at the end</td>
+            <td class="ps-3">
+              <a href="https://huff.to/1sNMnn4+" rel="nofollow">https://huff.to/1sNMnn4+</a></td>
+          </tr>          
+          <tr>
+            <td class="ps-3">
+              <a href="https://is.gd" rel="nofollow">is.gd</a></td>
+            <td class="ps-3">add - at the end</td>
+            <td class="ps-3">
+              <a href="https://is.gd/dKGELA-" rel="nofollow">https://is.gd/dKGELA-</a></td>
+          </tr>          
+          <tr>
+            <td class="ps-3">
+              <a href="https://j.mp" rel="nofollow">j.mp</a></td>
+            <td class="ps-3">add + at the end</td>
+            <td class="ps-3">
+              <a href="https://j.mp/3d-help+" rel="nofollow">https://j.mp/3d-help+</a></td>
+          </tr>          
+          <tr>
+            <td class="ps-3">
+              <a href="https://kurzelinks.de" rel="nofollow">kurzelinks.de</a></td>
+            <td class="ps-3">add + at the end</td>
+            <td class="ps-3">
+              <a href="https://kurzelinks.de/y9t9+" rel="nofollow">https://kurzelinks.de/y9t9+</a></td>
+          </tr>          
+          <tr>
+            <td class="ps-3">
+              <a href="https://lat.ms" rel="nofollow">lat.ms</a></td>
+            <td class="ps-3">add + at the end</td>
+            <td class="ps-3">
+              <a href="https://lat.ms/ds86+" rel="nofollow">https://lat.ms/ds86+</a></td>
+          </tr>          
+          <tr>
+            <td class="ps-3">
+              <a href="https://linkd.pl" rel="nofollow">linkd.pl</a></td>
+            <td class="ps-3">add nothing</td>
+            <td class="ps-3">
+              <a href="https://linkd.pl/pduzr" rel="nofollow">https://linkd.pl/pduzr</a></td>
+          </tr>          
+          <tr>
+            <td class="ps-3">
+              <a href="https://lmy.de" rel="nofollow">lmy.de</a></td>
+            <td class="ps-3">add + at the end</td>
+            <td class="ps-3">
+              <a href="https://lmy.de/icBPw+" rel="nofollow">https://lmy.de/icBPw+</a></td>
+          </tr>          
+          <tr>
+            <td class="ps-3">
+              <a href="https://lnnk.in" rel="nofollow">lnnk.in</a></td>
+            <td class="ps-3">add + at the end</td>
+            <td class="ps-3">
+              <a href="https://lnnk.in/@LnnkinExplainerVideo+" rel="nofollow">https://lnnk.in/@LnnkinExplainerVideo+</a></td>
+          </tr>          
+          <tr>
+            <td class="ps-3">
+              <a href="https://nyr.kr" rel="nofollow">nyr.kr</a></td>
+            <td class="ps-3">add + at the end</td>
+            <td class="ps-3">
+              <a href="https://nyr.kr/1DaF5MM+" rel="nofollow">https://nyr.kr/1DaF5MM+</a></td>
+          </tr>          
+          <tr>
+            <td class="ps-3">
+              <a href="https://nyti.ms" rel="nofollow">nyti.ms</a></td>
+            <td class="ps-3">add + at the end</td>
+            <td class="ps-3">
+              <a href="https://nyti.ms/3e0fvnL+" rel="nofollow">https://nyti.ms/3e0fvnL+</a></td>
+          </tr>          
+          <tr>
+            <td class="ps-3">
+              <a href="https://oe.cd" rel="nofollow">oe.cd</a></td>
+            <td class="ps-3">add + at the end</td>
+            <td class="ps-3">
+              <a href="https://oe.cd/4iZ+" rel="nofollow">https://oe.cd/4iZ+</a></td>
+          </tr>          
+          <tr>
+            <td class="ps-3">
+              <a href="https://on.fb.me" rel="nofollow">on.fb.me</a></td>
+            <td class="ps-3">add + at the end</td>
+            <td class="ps-3">
+              <a href="https://on.fb.me/iPQ2FQ+" rel="nofollow">https://on.fb.me/iPQ2FQ+</a></td>
+          </tr>          
+          <tr>
+            <td class="ps-3">
+              <a href="https://on.mtv.com" rel="nofollow">on.mtv.com</a></td>
+            <td class="ps-3">add + at the end</td>
+            <td class="ps-3">
+              <a href="https://on.mtv.com/3iNznyz+" rel="nofollow">https://on.mtv.com/3iNznyz+</a></td>
+          </tr>          
+          <tr>
+            <td class="ps-3">
+              <a href="https://politi.co" rel="nofollow">politi.co</a></td>
+            <td class="ps-3">add + at the end</td>
+            <td class="ps-3">
+              <a href="https://politi.co/3GB7fI7+" rel="nofollow">https://politi.co/3GB7fI7+</a></td>
+          </tr>          
+          <tr>
+            <td class="ps-3">
+              <a href="https://shorturl.gg" rel="nofollow">shorturl.gg</a></td>
+            <td class="ps-3">add nothing</td>
+            <td class="ps-3">
+              <a href="https://shorturl.gg/mfGmhopm" rel="nofollow">https://shorturl.gg/mfGmhopm</a></td>
+          </tr>          
+          <tr>
+            <td class="ps-3">
+              <a href="https://soo.gd" rel="nofollow">soo.gd</a></td>
+            <td class="ps-3">add ! at the end</td>
+            <td class="ps-3">
+              <a href="https://soo.gd/r76DV!" rel="nofollow">https://soo.gd/r76DV!</a></td>
+          </tr>          
+          <tr>
+            <td class="ps-3">
+              <a href="https://split.to" rel="nofollow">split.to</a></td>
+            <td class="ps-3">add /preview at the end</td>
+            <td class="ps-3">
+              <a href="https://split.to/nhHBzwv/preview" rel="nofollow">https://split.to/nhHBzwv/preview</a></td>
+          </tr>          
+          <tr>
+            <td class="ps-3">
+              <a href="https://tcrn.ch/3wJ8IpO+" rel="nofollow">tcrn.ch</a></td>
+            <td class="ps-3">add + at the end</td>
+            <td class="ps-3">
+              <a href="https://tcrn.ch/3wJ8IpO+" rel="nofollow">https://tcrn.ch/3wJ8IpO+</a></td>
+          </tr>          
+          <tr>
+            <td class="ps-3">
+              <a href="https://t1p.de" rel="nofollow">t1p.de</a></td>
+            <td class="ps-3">add + at the end</td>
+            <td class="ps-3">
+              <a href="https://t1p.de/9xn8+" rel="nofollow">https://t1p.de/9xn8+</a></td>
+          </tr>          
+          <tr>
+            <td class="ps-3">
+              <a href="https://t.ly" rel="nofollow">t.ly</a></td>
+            <td class="ps-3">add + at the end</td>
+            <td class="ps-3">
+              <a href="https://t.ly/iXVY+" rel="nofollow">https://t.ly/iXVY+</a></td>
+          </tr>          
+          <tr>
+            <td class="ps-3">
+              <a href="https://tiny.cc" rel="nofollow">tiny.cc</a></td>
+            <td class="ps-3">add = at the end to view the link
+              <br>add ~ for statistics</td>
+            <td class="ps-3">
+              <a href="https://tiny.cc/t1a1tz=" rel="nofollow">https://tiny.cc/t1a1tz=</a>
+              <br>
+              <a href="https://tiny.cc/t1a1tz~" rel="nofollow">https://tiny.cc/t1a1tz~</a></td>
+          </tr>          
+          <tr>
+            <td class="ps-3">
+              <a href="https://tiny.pl" rel="nofollow">tiny.pl</a></td>
+            <td class="ps-3">add ! at the end</td>
+            <td class="ps-3">
+              <a href="https://tiny.pl/9jkhm!" rel="nofollow">https://tiny.pl/9jkhm!</a> 
+              <br>(or 
+              <a href="https://tiny.pl/co.php?d=9jkhm" rel="nofollow">https://tiny.pl/co.php?d=9jkhm</a>)</td>
+          </tr>          
+          <tr>
+            <td class="ps-3">
+              <a href="https://tinyurl.com" rel="nofollow">tinyurl.com</a></td>
+            <td class="ps-3">add "preview." before "tinyurl.com"</td>
+            <td class="ps-3">
+              <a href="https://preview.tinyurl.com/y53y8oq6" rel="nofollow">https://preview.tinyurl.com/y53y8oq6</a></td>
+          </tr>          
+          <tr>
+            <td class="ps-3">
+              <a href="https://usat.ly" rel="nofollow">usat.ly</a></td>
+            <td class="ps-3">add + at the end</td>
+            <td class="ps-3">
+              <a href="https://usat.ly/2p00LPb+" rel="nofollow">https://usat.ly/2p00LPb+</a></td>
+          </tr>          
+          <tr>
+            <td class="ps-3">
+              <a href="https://utn.pl" rel="nofollow">utn.pl</a></td>
+            <td class="ps-3">add + at the end</td>
+            <td class="ps-3">
+              <a href="https://utn.pl/80wUQ+" rel="nofollow">https://utn.pl/80wUQ+</a></td>
+          </tr>          
+          <tr>
+            <td class="ps-3">
+              <a href="https://ux.nu" rel="nofollow">ux.nu</a></td>
+            <td class="ps-3">add nothing</td>
+            <td class="ps-3">
+              <a href="https://ux.nu/HJo7C" rel="nofollow">https://ux.nu/HJo7C</a></td>
+          </tr>          
+          <tr>
+            <td class="ps-3">
+              <a href="https://vo.la" rel="nofollow">vo.la</a></td>
+            <td class="ps-3">add + at the end</td>
+            <td class="ps-3">
+              <a href="https://vo.la/zdHf0+" rel="nofollow">https://vo.la/zdHf0+</a></td>
+          </tr>          
+          <tr>
+            <td class="ps-3">
+              <a href="https://wapo.st" rel="nofollow">wapo.st</a></td>
+            <td class="ps-3">add + at the end</td>
+            <td class="ps-3">
+              <a href="https://wapo.st/3u6ZWCr+" rel="nofollow">https://wapo.st/3u6ZWCr+</a></td>
+          </tr>          
+          <tr>
+            <td class="ps-3">
+              <a href="https://yhoo.it"rel="nofollow">yhoo.it</a></td>
+            <td class="ps-3">add + at the end</td>
+            <td class="ps-3">
+              <a href="https://yhoo.it/2nLr2NW​+" rel="nofollow">https://yhoo.it/2nLr2NW​+</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <p style="margin-top:4em;">For more information on how URLs are built, check <a href="https://dfir.blog/unfurl" target=_blank>Unfurl</a>.</p>
+    </div>
+  </main>
+  
+  <footer class="footer mt-auto py-3 bg-light">
+    <div class="container">
+      <div><small>The author does not take responsibility for the content that is behind the sample links.</small></div>
+      <span class="text-muted">&copy SEINT 2022</span>
+    </div>
+  </footer>
+
+  <script>
+  $(document).ready(function(){
+    $("#filteru").on("keyup", function() {
+      var value = $(this).val().toLowerCase();
+      $("#urltable tr").filter(function() {
+        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+      });
+    });
+  });
+  </script>
+      
+  </body>
+</html>
