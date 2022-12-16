@@ -9,6 +9,7 @@ Two of them were not translated automatically and have a human-translated Englis
 
 | Title of the article | Translated version | Original PL version |
 |---|:---:|:---:|
+|Mastodon - an OSINT analysis of the increasingly popular alternative to Twitter [OSINT hints] | [auto-translate](https://sekurak-pl.translate.goog/mastodon-osint-owa-analiza-coraz-popularniejszej-alternatywy-dla-twittera-osint-hints/?_x_tr_sl=pl&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp) | [PL](https://sekurak.pl/mastodon-osint-owa-analiza-coraz-popularniejszej-alternatywy-dla-twittera-osint-hints/) | 
 |Passive reconnaissance of Google and Microsoft accounts | [auto-translate](https://sekurak-pl.translate.goog/pasywny-rekonesans-kont-google-i-microsoft-osint-hints/?_x_tr_sl=pl&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp) | [PL](https://sekurak.pl/pasywny-rekonesans-kont-google-i-microsoft-osint-hints/) |  
 |Comparison of reverse image searching in popular search engines | [EN translation*](https://research.securitum.com/comparison-of-reverse-image-searching-in-popular-search-engines-osint-hints/) | [PL](https://sekurak.pl/jak-wyszukiwarki-radza-sobie-z-analiza-zawartosci-obrazow-osint-hints/) | 
 |Bookmarklets - how to make an OSINT tool from a browser tab | [auto-translate](https://sekurak-pl.translate.goog/skryptozakladki-bookmarklets-jak-z-zakladki-w-przegladarce-zrobic-narzedzie-do-osintu-osint-hints/?_x_tr_sl=pl&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp) | [PL](https://sekurak.pl/skryptozakladki-bookmarklets-jak-z-zakladki-w-przegladarce-zrobic-narzedzie-do-osintu-osint-hints/) |  
