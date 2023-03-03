@@ -26,10 +26,11 @@ Two of them were not translated automatically and have a human-translated Englis
 |InVID - In Video Veritas. An interesting tool useful in OSINT investigations | [auto-translate](https://sekurak-pl.translate.goog/invid-in-video-veritas-ciekawe-narzedzie-przydatne-w-osint/?_x_tr_sl=pl&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp) | [PL](https://sekurak.pl/invid-in-video-veritas-ciekawe-narzedzie-przydatne-w-osint/) |
 
 
-### [Thursdays with OSINT] series - 10 OSINT cases which hightlight different aspects of OSINT
+### [Thursdays with OSINT] series - OSINT cases which hightlight different aspects of OSINT
 
 | Title of the article | Translated version | Original PL version |
 |---|:---:|:---:|
+| Google's glass and eye. So what's new in image content search | [auto-translate](https://sekurak-pl.translate.goog/googlea-szkielko-i-oko-czyli-co-nowego-w-wyszukiwaniu-zawartoscia-obrazow-czwartki-z-osintem/?_x_tr_sl=pl&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp) | [PL](https://sekurak.pl/googlea-szkielko-i-oko-czyli-co-nowego-w-wyszukiwaniu-zawartoscia-obrazow-czwartki-z-osintem/) |  
 | OPSEC goes first | [auto-translate](https://sekurak-pl.translate.goog/opsec-przede-wszystkim-czwartki-z-osintem/?_x_tr_sl=pl&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp) | [PL](https://sekurak.pl/opsec-przede-wszystkim-czwartki-z-osintem/) |  
 | An OSINT Too Far - the sad effects of bad analyzes | [auto-translate](https://sekurak-pl.translate.goog/o-jeden-osint-za-daleko-czyli-przykre-skutki-zlych-analiz-czwartki-z-osintem/?_x_tr_sl=pl&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp) | [PL](https://sekurak.pl/o-jeden-osint-za-daleko-czyli-przykre-skutki-zlych-analiz-czwartki-z-osintem/) |  
 | Metadata - the Holy Grail or a dead end? | [auto-translate](https://sekurak-pl.translate.goog/metadane-swiety-graal-czy-slepy-zaulek-czwartki-z-osintem/?_x_tr_sl=pl&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp) | [PL](https://sekurak.pl/metadane-swiety-graal-czy-slepy-zaulek-czwartki-z-osintem/) |  
